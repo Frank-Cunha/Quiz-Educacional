@@ -94,7 +94,7 @@ Para aumentar o engajamento dos estudantes, o MathDF poderá oferecer recompensa
 
 ## 🛠️ Tecnologias utilizadas
 
-> Preencha esta parte conforme as tecnologias usadas no desenvolvimento.
+
 
 - Linguagem C;
 - Raylib;
