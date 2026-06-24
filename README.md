@@ -1,8 +1,6 @@
 # MathDF
 
-<p align="center">
-  <img src="./assets/banner-mathdf.png" alt="Banner do projeto MathDF" width="100%">
-</p>
+<img width="1536" height="1024" alt="banner-mathdf.png" src="https://github.com/user-attachments/assets/a5187ceb-01c9-485e-8b52-ca039d46f816" />
 
 <p align="center">
 <img alt="Static Badge" src="https://img.shields.io/badge/LICENSE-MIT-yellow?style=plastic">
