@@ -151,6 +151,11 @@ MathDF/
 |----------|----------|
 | README.md || Visão geral do repositório e projeto |
 | elicitacao_5w2h.md || 5W2H, requisitos, público-alvo, stakeholders, custo computacional |
-|LICENSE|| Licença MIT|
+|5W2H, requisitos, público-alvo, stakeholders, custo computacional|| Licença MIT|
+| Documento | Conteúdo |
+|----------------|-----------|
+| README.md | Visão geral do repositório e projeto. |
+| elicitacao_5w2h.md |5W2H, requisitos, público-alvo, stakeholders, custo computacional. |
+|LICENSE | Licença MIT.|
 
 ---
