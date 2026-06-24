@@ -2,7 +2,7 @@
 
 ## Visao do Produto
 
-O produto e um jogo de quiz educacional de matematica basica voltado a estudantes do ensino fundamental. A proposta e apoiar a pratica de calculos simples por meio de uma experiencia curta, visualmente amigavel e com feedback imediato.
+O produto e um jogo de quiz educacional de matematica basica voltado a estudantes do ensino fundamental da rede pública no Distrito Federal. A proposta e apoiar a pratica de calculos simples por meio de uma experiencia curta, visualmente amigavel e com feedback imediato.
 
 ## Problema
 
