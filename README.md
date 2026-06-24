@@ -1,4 +1,3 @@
-# MathDF
 
 <img width="1536" height="1024" alt="banner-mathdf.png" src="https://github.com/user-attachments/assets/a5187ceb-01c9-485e-8b52-ca039d46f816" />
 
