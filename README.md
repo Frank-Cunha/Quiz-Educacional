@@ -105,8 +105,6 @@ Para aumentar o engajamento dos estudantes, o MathDF poderá oferecer recompensa
 
 ## 📁 Estrutura do projeto
 
-Exemplo de organização dos arquivos:
-
 ```txt
 MathDF/
 │
@@ -158,14 +156,6 @@ MathDF/
     ├── 08_github_gitlab.md
     └── 09_guia_compilacao.md
 ```
-
----
-
-## 🔧 Detalhes técnicos
-
-
-
-
 
 ---
 
