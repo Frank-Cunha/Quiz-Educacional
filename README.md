@@ -57,7 +57,6 @@ O sistema poderá trabalhar com diferentes áreas da matemática básica, como:
 - Sequências numéricas;
 - Noções iniciais de álgebra;
 - Grandezas e medidas;
-- Interpretação de tabelas e gráficos;
 - Raciocínio lógico.
 
 ---
