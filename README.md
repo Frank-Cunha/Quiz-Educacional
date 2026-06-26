@@ -111,16 +111,52 @@ Exemplo de organização dos arquivos:
 MathDF/
 │
 ├── README.md
-├── main.c
+├── LICENSE
+├── .gitignore
+├── Makefile #arquivo responsável por facilitar a compilação e execução do projeto
+│
 ├── assets/
-│   └── banner-mathdf.png
-├── src/
-│   ├── quiz.c
-│   ├── quiz.h
-│   ├── telas.c
-│   └── telas.h
+│   ├── images/
+│   │   └── banner-mathdf.png
+│   └── audio/
+│       └── arquivos_de_som.mp3
+├── MathDF_game/
+│   ├── src/
+│   ├── main.c #inicializa a janela, cria o GameState e contorla o loop principal
+│   ├── utilidades.c #funcoes auxiliares de texto. memoria, tela cheia e escala proporcional da interface
+│   ├── audio.c #responsavel por tocar os efeitos sonoros e audios presentes no sistema
+│   ├── questoes.c #gera perguntas conforme o ano e bloco de conteudo 
+│   ├── conteudo.c #guarda textos explicativos dos blocos
+│   ├── progresso.c #carrega dados para a area do professor responsavel
+│   ├── jogo.c #inciar a atividade, responder, calcular resultado e atualizar progesso
+│   └── telas_aluno_responsavel.c #desenha todas as telas: login, selecao de ano, conteudo, quiz, resultado e area do responsavel
+│
+├── include/
+│   ├── config.h #guarda constantes do projeto: tamanho da tela, quantidade de questoes, arquivo de progesso e local dos audios do sistema
+│   ├── modelos.h #guarda enums e structs principais: GameScreen, UserRole, PlayMode, Question, ContentBlock, StudentProgress, GameAudio e GameState.
+│   ├── utilidades.h #funcoes auxiliares de texto, memoria, tela cheia e escala proporcional da interface
+│   ├── audio.h #responsavel por tocar os efeitos sonoros e audios presentes no sistema 
+│   ├── questoes.h #criacao, randomizacao e liberacao das questoes
+│   ├── conteudo.h #cria os 10 blocos de conteudo por ano escolar
+│   ├── progresso.h #salva progresso em arquivo texto
+│   ├── jogo.h #controla o funcionamento do quiz/teste: iniciar atividade, responder, calcular resultado e atualizar progresso.
+│   └── telas_aluno_responsavel.h #desenha todas as telas: login, selecao de ano, blocos, conteudo, quiz, resultado e area do responsavel
+│
+├── data/ #guarda dados gerados ou usados pelo sistema durante a execução
+│    ├── READMEData.md #explica a utilidade da pasta data/
+│    ├── .gitkeep
+│    └── progresso_quiz_df.txt.example #mostra um modelo de como o arquivo de progresso será salvo
+│    └── progresso_quiz_df.txt #arquivo real gerado pelo programa com o progresso dos alunos
 └── docs/
-    └── requisitos.md
+    ├── 01_planejamento_produto.md
+    ├── 02_elicitacao_5w2h.md
+    ├── 03_arquitetura.md
+    ├── 04_plano_seguranca.md
+    ├── 05_plano_ux_ui.md
+    ├── 06_plano_cloud.md
+    ├── 07_apresentacao_simulacao.md
+    ├── 08_github_gitlab.md
+    └── 09_guia_compilacao.md
 ```
 
 ---
@@ -147,7 +183,8 @@ MathDF/
 | Documento | Conteúdo |
 |----------------|-----------|
 | README.md | Visão geral do projeto. |
-| elicitacao_5w2h.md |5W2H, requisitos, público-alvo, stakeholders, custo computacional. |
+| docs/ |5W2H, requisitos, público-alvo, stakeholders, custo computacional. |
+|MathDF_game/| | Mostra cada parte do MathDF. |
 |LICENSE | Licença MIT.|
 
 ---
