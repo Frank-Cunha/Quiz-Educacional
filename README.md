@@ -7,7 +7,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/ENGINE-RAYLIB-violet?style=plastic&logo=raylib&logoColor=white">
 <img alt="Static Badge" src="https://img.shields.io/badge/PLATFORM-WINDOWS-darkgreen?style=plastic&logoColor=white">
 <img alt="Static Badge" src="https://img.shields.io/badge/GENRE-EDUCATIONAL-lightblue?style=plastic&logoColor=white">
-<img alt="Static Badge" src="https://img.shields.io/badge/STATUS-UNDER%20DEVELOPMENT-lime?style=plastic&logoColor=white">
+<img alt="Static Badge" src="https://img.shields.io/badge/STATUS-PLAYABLE-GREEN?style=plastic">
 </p>
 
 
